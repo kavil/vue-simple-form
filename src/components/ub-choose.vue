@@ -10,14 +10,14 @@ import { Component, Vue, Inject, Watch } from 'vue-property-decorator';
 import Emitter from './emitter';
 
 @Component({
-  name: 'UbSselect',
+  name: 'UbChoose',
   mixins: [Emitter],
   props: {
     value: { type: String, default: '' },
     update: {}
   }
 })
-class UbSselect extends Vue {
+class UbChoose extends Vue {
   @Inject() propValue;
 
   currentValue;
@@ -51,5 +51,5 @@ class UbSselect extends Vue {
     this.dispatch('UbFormItem', 'form-blur', this.currentValue);
   }
 }
-export default UbSselect;
+export default UbChoose;
 </script>

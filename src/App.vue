@@ -24,9 +24,9 @@
           </Ub-FormItem>
 
           <Ub-FormItem label="参数类型：" prop="componParmaType" class="row-cell">
-            <Ub-Sselect @change="componParmaTypeChange">
+            <Ub-Choose @change="componParmaTypeChange">
               <option v-for="(op, i) in componParmaTypeList" :key="i" :value="op.value">{{op.label}}</option>
-            </Ub-Sselect>
+            </Ub-Choose>
             <div class="tip-wrap">
               <div class="icon">
                 <img src="./assets/extend/extend_order_tip_icon.png" alt />
@@ -37,13 +37,13 @@
             </div>
           </Ub-FormItem>
           <Ub-FormItem label="组件类型：" prop="componType" class="row-cell">
-            <Ub-Sselect @change="componTypeChange" :update="formData.componType">
+            <Ub-Choose @change="componTypeChange" :update="formData.componType">
               <option
                 v-for="(op, i) in componObj[formData.componParmaType]"
                 :key="i"
                 :value="op.value"
               >{{op.label}}</option>
-            </Ub-Sselect>
+            </Ub-Choose>
 
             <div class="tip-wrap">
               <div class="icon">
@@ -135,7 +135,7 @@ import UbForm from '@/components/ub-form.vue';
 import UbFormItem from '@/components/ub-formItem.vue';
 import UbInput from '@/components/ub-input.vue';
 import UbTextarea from '@/components/ub-textarea.vue';
-import UbSselect from '@/components/ub-sselect.vue';
+import UbChoose from '@/components/ub-choose.vue';
 import UbRadioBool from '@/components/ub-radio-bool.vue';
 import UbArray from '@/components/ub-array.vue';
 @Component({
@@ -145,7 +145,7 @@ import UbArray from '@/components/ub-array.vue';
     UbFormItem,
     UbInput,
     UbTextarea,
-    UbSselect,
+    UbChoose,
     UbRadioBool,
     UbArray
   }
