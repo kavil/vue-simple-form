@@ -62,10 +62,4 @@ rules = {
 
 ### 在线查看效果
 
-<iframe
-    src="https://codesandbox.io/embed/silly-hertz-k6x2h?fontsize=14&hidenavigation=1&theme=dark"
-    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-    title="silly-hertz-k6x2h"
-    allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
-    sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
-></iframe>
+[![Edit silly-hertz-k6x2h](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/silly-hertz-k6x2h?fontsize=14&hidenavigation=1&theme=dark)
