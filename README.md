@@ -58,3 +58,14 @@ rules = {
 在没有第三方UI库的情况下，写form 一般使用 v-model 绑定每个受控div（如input、select等）,但<br />
 这样写的坏处显而易见，`乱`、`臃肿`、`拿值各种判断`，最重要的是碰到验证、编辑功能更是n多判断。<br />
 所以 这种类antd的表单写法就可以解决这些问题，每个组件做自己的事、值也全在form一个地方。
+
+
+### 在线查看效果
+
+<iframe
+    src="https://codesandbox.io/embed/silly-hertz-k6x2h?fontsize=14&hidenavigation=1&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+    title="silly-hertz-k6x2h"
+    allow="geolocation; microphone; camera; midi; vr; accelerometer; gyroscope; payment; ambient-light-sensor; encrypted-media; usb"
+    sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin"
+></iframe>
