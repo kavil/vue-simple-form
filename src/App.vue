@@ -2,7 +2,6 @@
   <div class="add-prop-mask">
     <div class="add-prop-page">
       <div class="add-prop-top">
-        <img src="./assets/logo-small.png" class="app-logo" />
         <span>属性编辑</span>
       </div>
 
@@ -293,10 +292,7 @@ export default App;
     box-sizing: border-box;
     border: 0.5px solid #5177c7;
     background: white;
-    transform: translate(-50%, -50%);
-    margin-left: 500px;
-    margin-top: 325px;
-    margin-top: 300px;
+    margin: 20px;
     .add-prop-top {
       width: 100%;
       height: 32px;
